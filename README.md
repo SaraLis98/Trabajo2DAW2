@@ -1,5 +1,6 @@
 # Trabajo2DAW2
-PowerFitGym
+<h3 align="center">PowerFitGym </h3>
+
 ## Para el proyecto utilizamos: 
 * XAMMP v3.3.0
 * Wordpress versión 5.7.2
