@@ -14,7 +14,8 @@
 * Para el registro, inicio de sesión, manejo de cuentas: Ultimate Member – v2.1.20
 * Para calendario: Weekly Schedule – v3.4.4
 * Para la tienda online: WooComerce – v5.3.0
-*  Para el carrito: WPC Fly Cart for WooCommerce – 3.0.6
+* Para el carrito: WPC Fly Cart for WooCommerce – 3.0.6
+
 ## Tipos de usuario
 * Administrador
 * Editor
