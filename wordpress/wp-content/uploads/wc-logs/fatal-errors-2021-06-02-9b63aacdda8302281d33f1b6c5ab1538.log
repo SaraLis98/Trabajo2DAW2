@@ -1,0 +1,933 @@
+2021-06-02T22:10:10+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:10:23+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:10:23+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:10:30+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:10:38+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:10:44+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:34+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:34+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:34+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:38+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:47+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:47+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:11:47+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:12:07+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:12:11+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:12:34+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:12:45+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:12:58+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:13:12+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:13:41+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:13:44+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:14:30+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:14:45+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:14:45+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:14:45+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:14:46+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:15:13+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:03+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:03+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:03+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:15+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:23+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:30+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:32+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:36+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:42+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:16:45+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:17:13+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:17:36+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:17:51+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:18:09+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+
+2021-06-02T22:18:35+00:00 CRITICAL Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php:4043
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3894): Freemius->get_anonymous_id(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(3946): Freemius->ping()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php(4788): Freemius->has_api_connectivity()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\start.php(522): Freemius->dynamic_init(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Freemius.php(57): fs_dynamic_init(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(141): Tribe__Freemius->initialize('the-events-cale...', '3069', 'pk_e32061abc28c...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Freemius.php(79): Tribe__Events__Integrations__Freemius->setup()
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(72): Tribe__Events__Integrations__Freemius->__construct()
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Integrations\Manager.php(40): Tribe__Events__Integrations__Manager->load_freemius()
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(986): Tribe__Events__Integrations__Manager->load_integrations()
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Tribe__Events__Main->init('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-settings.php(560): do_action('init')
+#14 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\vendor\freemius\includes\class-freemius.php en la línea 4043
+

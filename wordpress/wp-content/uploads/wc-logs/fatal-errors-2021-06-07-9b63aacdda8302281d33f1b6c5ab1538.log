@@ -1,0 +1,22 @@
+2021-06-07T17:47:18+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster::get_download_files_and_permissions(): Argument #1 ($product) must be of type WC_Product, bool given, called in D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php on line 103 and defined in D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php:138
+Stack trace:
+#0 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php(103): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->get_download_files_and_permissions(false)
+#1 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->adjust_download_permissions(910)
+#2 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 D:\Tools\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#4 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('adjust_download...', Array)
+#5 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#6 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(637, 'Async Request')
+#7 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#8 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#9 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#10 D:\Tools\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#12 D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#13 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#14 D:\Tools\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#15 D:\Tools\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 D:\Tools\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#17 {main}
+  thrown en D:\Tools\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php en la línea 138
+
